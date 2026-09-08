@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "name": "🔥 Backend",
+      "path": "backend"
+    },
+    {
+      "name": "📱 Frontend",
+      "path": "frontend"
+    },
+    {
+      "name": "🔒 Private",
+      "path": "private"
+    },
+    {
+      "name": "🌐 Web",
+      "path": "web"
+    },
+    {
+      "name": "VScode",
+      "path": ".vscode"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder:backend}/.venv/bin/python",
+    "editor.formatOnSave": true
+  }
+}
