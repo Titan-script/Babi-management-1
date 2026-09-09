@@ -79,3 +79,6 @@ pip-delete-this-directory.txt
 
 # Private / Sensitive root folder
 private/
+frontend/
+
+backend/app/infrastructure/firebase/firebase-service-account.json
