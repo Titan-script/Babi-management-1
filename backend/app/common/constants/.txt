@@ -1,0 +1,11 @@
+"""
+from common import routes, features, FastAPI, Depends
+
+app = FastAPI()
+
+app.include_router(
+    org_identity_router,
+    prefix=f"{routes.API}{routes.ORG_IDENTITY}",
+    tags=[features.ORG_IDENTITY]
+)
+"""
