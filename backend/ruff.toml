@@ -1,0 +1,12 @@
+# Configuration globale Ruff
+line-length = 100
+target-version = "py311"
+
+[lint]
+# Select linter rules (E = pycodestyle errors, F = Pyflakes, I = isort pour trier les imports)
+select = ["E", "F", "I"]
+ignore = []
+
+# ruff check --fix
+
+# ruff format
